@@ -9,3 +9,7 @@ The following file consists of an application, designed to function on iOS devic
 	- Core Location
 - XCode Simulation and Coding IDE
 - Open Weather API 
+
+## Testing of Application and Output
+
+< img src = "img/tester.png >
