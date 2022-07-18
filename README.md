@@ -12,4 +12,4 @@ The following file consists of an application, designed to function on iOS devic
 
 ## Testing of Application and Output
 
-< img src = "img/test.PNG >
+<img src="https://github.com/jxson7/iOS-Weather-Application/blob/main/img/test.PNG" width="400" >
