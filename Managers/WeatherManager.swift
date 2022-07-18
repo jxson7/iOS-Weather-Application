@@ -3,7 +3,7 @@
 //  WeatherApp
 //
 //  Created by Jason Dookarun on 18/07/2022.
-//
+// Please do note that line 16 does not contain the API code due to GDPR and protection of data. 
 
 import Foundation
 import CoreFoundation
@@ -13,7 +13,7 @@ import CoreLocation
 class WeatherManager {
     // HTTP request to get the current weather depending on the coordinates we got from LocationManager
     func getCurrentWeather(latitude: CLLocationDegrees, longitude: CLLocationDegrees) async throws -> ResponseBody {
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=8872c0846fc9c28452af4f7aa3f45415&units=metric") else { fatalError("Missing URL") }
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=XXXXXX&units=metric") else { fatalError("Missing URL") }
 
 
         let urlRequest = URLRequest(url: url)
